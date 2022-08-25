@@ -1,0 +1,16 @@
+.footer {
+    background-color: #101e2b;
+    color: #ffdd40;
+    width: 100%;
+	font: bold 16px sans-serif;
+	text-align: center;
+	padding: 50px 60px 40px;
+}
+.copyleft {
+    display: inline-block;
+    transform: rotate(180deg);
+  }
+  
+  .copyleft::after {
+    content: "\00a9";
+  }
