@@ -3,10 +3,10 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 
-import { Home } from "./components/Pages/Home";
-import { Articles } from "./components/Pages/Articles";
-import { AjouterArticle } from "./components/Pages/AjouterArticle";
-import { Apropos } from "./components/Pages/Apropos";
+import { Home } from "./Pages/Home";
+import { Articles } from "./Pages/Articles";
+import { AjouterArticle } from "./Pages/AjouterArticle";
+import { Apropos } from "./Pages/Apropos";
 
 function App() {
   return (
