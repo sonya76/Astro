@@ -1,13 +1,15 @@
 import React, {useState} from 'react';
 import {NavLink} from "react-router-dom";
 import "../components/NavBar.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Hamburger from 'hamburger-react';
+
 
 export default function NavBar() {
 
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
-
+  
+ 
   return (
     <>
       <nav className="navbar">
@@ -64,8 +66,7 @@ export default function NavBar() {
             </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
-          <FontAwesomeIcon icon={["fas", "coffee"]} />
-            <FontAwesomeIcon className={click ? "fas fa-times" : "fas fa-bars"} />
+          <Hamburger />    
           </div>
         </div>
       </nav>
