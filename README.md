@@ -5,6 +5,7 @@ Le but de ce blog est de creer des articles et de les lister,le contenu des arti
 1. Forker le depot suivant [https://github.com/formeka/ceppic-react-astronomie](https://github.com/formeka/ceppic-react-astronomie) ensuite travailler en le clonant localement.
 2. Vous devez avoir un **header** et un **footer** :
    - le **header** doit compoter un menu avec 3 liens : **Articles**,**Ajouter Article**,**A Propos**
+   - nav responsive avec un menu hamburger [https://hamburger-react.netlify.app/](https://hamburger-react.netlify.app/)
    - le footer doit comporter un [Copyleft](https://fr.wikipedia.org/wiki/Copyleft) et l'annee courante
 3. L'acceuil de l'application donne sur une page avec un texte libre expliquant le theme et le contenue de ce blog.
 4. La page **Articles** doit lister tous les articles du plus recent au plus plus ancien.
