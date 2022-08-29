@@ -19,9 +19,10 @@ function App() {
                 <Route path="/articles" component={Articles} />
                 <Route path="/ajouterArticle" component={AjouterArticle} />
                 <Route path="/apropos" component={Apropos} />
-          </Switch>
-            </div>
+          </Switch>   
           <Footer />
+          </div>
+        
       </Router>
     </>
   );
