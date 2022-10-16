@@ -8,13 +8,13 @@ import { initializeApp } from "firebase/app";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_APIKEY,
-  authDomain: "ceppic-react-astronomie-c1e4a.firebaseapp.com",
-  projectId: "ceppic-react-astronomie-c1e4a",
-  storageBucket: "ceppic-react-astronomie-c1e4a.appspot.com",
-  messagingSenderId: "928086348174",
-  appId: "1:928086348174:web:b40b6b6187d4a7695014df",
-  measurementId: "G-PL5NNJ02B9",
+    apiKey: "AIzaSyCyhDCHlngz1fKuUg50EpawmvSuFDqMrZ8",
+    authDomain: "ceppic-react-astronomie-a47aa.firebaseapp.com",
+    projectId: "ceppic-react-astronomie-a47aa",
+    storageBucket: "ceppic-react-astronomie-a47aa.appspot.com",
+    messagingSenderId: "1062736516470",
+    appId: "1:1062736516470:web:089cc240d0bff0c0ac5657",
+    measurementId: "G-VP7CH3JRW1"
 };
 
 // Initialize Firebase
